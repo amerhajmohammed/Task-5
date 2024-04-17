@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-1{
+    background-color: rgb(42, 3, 68);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-L{
+    display: flex;
+    margin-left: 100px;
+}
+.div-L i{
+    padding: 0 10px;
+}
+.div-r{
+    display: flex;
+    margin-right: 100px;
+}
+.div-r a{
+    padding: 0 10px;
+}
+.nav-1 p{
+    color: white;
+    padding: 0 10px;
+}
+.nav-2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    box-shadow: 0 5px 5px 5px rgb(169, 143, 143) ;
+}
+.nav-2 img{
+    margin-left: 100px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.items i{
+    display: none;
+}
+.item{
+    padding: 0 60px;
+}
+.item:hover{
+    background-color: gray;
+}
+.item a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+.icons{
+    margin-right: 125px;
+}
+.icons i{
+    padding: 10px;
+}
+.hero{
+    padding-bottom: 50px;
+    background-color:rgb(238, 243, 243);
+}
+.hero div{
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    padding-top: 50px;
+}
+.hero div h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 100;
+    color: brown;
+}
+.hero div p{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.location{
+    padding-bottom: 200px;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+}
+.pm{
+    width: 30px;
+    height: 60px;
+    background-color: white;
+    margin: 20px;
+    position: relative;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.location div hr{
+    width: 27px;
+    height: 1px;
+    position: absolute;
+    margin-top: 28px;
+}
+.plus{
+    position: absolute;
+    left: 8px; 
+    top: 5px;
+}
+.minus{
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+}
+.locatop{
+    left: 600px;
+    top: 30px;
+    position: relative;
+}
+.locatop p{
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+    padding: 10px;
+    line-height: 20px;
+    opacity: 0.8;
+}
+.locatop i:first-child{
+    position: absolute;
+    transform: translate(184px,1px);
+}
+.locatop i:last-child{
+    position: absolute;
+    transform: translate(90px,80px);
+}
+.para{
+    height: 20px;
+    transform: translate(892px,280px);
+    background-color: rgb(238, 243, 243);
+}
+.form{
+    height: 700px;
+}
+.form div{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.ne form{
+    display: flex;
+}
+.form div p{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.ne form div input{
+    width: 96%;
+    height: 40px;
+    opacity: 0.3;
+    border-radius: 5px;
+}
+.subject form input{
+width: 98%;
+height: 40px;
+opacity: 0.3;
+border-radius: 5px;
+}
+.message form input{
+    opacity: 0.3;
+    border-radius: 5px;
+    width: 98%;
+    height: 200px;
+}
+.form div button{
+    font-size: 20px;
+    color: white;
+    width: 130px;
+    height: 50px;
+    background-color: rgb(53, 133, 53);
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 20px;
+    margin-left: 945px;    
+}
+.finish-1{
+    background-color: rgb(38, 38, 55);
+}
+.zpf{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+}
+.zay h1{
+    color: green !important; 
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.zay ul li i{
+    padding: 0 10px;
+}
+.zpf ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.zpf li{
+    color: white;
+    line-height: 35px;
+    font-family: sans-serif;
+}
+.zpf h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+.zay hr ,.products hr ,.further hr{
+    opacity: 0.1;
+    width: 300px;
+    margin-top: 20px;
+}
+.first{
+   width: 80%;
+   display: flex;
+   margin: auto;
+   padding: 25px 0 25px ;
+   justify-content: space-between;
+}
+.hr{
+    width: 80%;
+    margin: auto;
+    opacity: 0.1;
+}
+.first div{
+    display: flex;
+    align-items: center;
+}
+.media i{
+    padding: 0 20px;
+}
+.last {
+   border: 1px solid gray;
+   border-radius: 5px;
+   opacity: 0.5;
+}
+.last input{
+    background: transparent;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: large;
+}
+.last button{
+    background-color: rgb(82, 190, 82);
+    color: white;
+    padding: 0 10px;
+    font-size: large;
+    height: 40px;
+}
+.finish-2{
+    padding-bottom: 40px;
+    background-color: rgb(17, 17, 46); 
+}
+.finish-2 p{
+    padding: 20px 0 0 150px;
+    color: white;
+}
+@media(max-width:360px){
+.nav-1{
+    display: none;
+}
+.items,.icons{
+display: none;
+}
+.nav-2 div img{
+    margin-left: 20px;
+}
+.hero div{
+    width: 100%;
+}
+.pm{
+    width: 60px;
+    height: 60px;
+}
+.locatop{
+    left: 30px;
+}
+.para{
+   transform: translate(-70px,245px);
+   height: 55px;
+}
+.form{
+    height: max-content;
+    overflow: hidden;
+}
+.ne form{
+    flex-wrap: wrap;
+}
+.form div{
+    padding-left: 10px;
+    position: relative;
+    width: 100%;
+}
+.form div button{
+    transform: translateX(-750px);
+    margin-bottom: 50px;
+}
+.products, .further{
+    padding-top: 50px;
+}
+.zpf {
+     flex-wrap: wrap;
+     margin-left: 10px;
+}
+.first {
+    flex-wrap: wrap;
+    width: 400px;
+    padding-top: 20px 50px 0 0 ;
+}
+.last{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.last input{
+    width: 150px;
+}
+.finish-1{
+    height: 1100px;
+}
+.finish-2{
+    height: 100px; 
+    padding-top: 10px;
+}
+.finish-2 p{
+    padding: 5px ;
+}
+.media  {
+    padding-right: 100px;
+}
+}
+
+   

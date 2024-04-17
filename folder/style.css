@@ -1,0 +1,412 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-1{
+    background-color: rgb(42, 3, 68);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-L{
+    display: flex;
+    margin-left: 100px;
+}
+.div-L i{
+    padding: 0 10px;
+}
+.div-r{
+    display: flex;
+    margin-right: 100px;
+}
+.div-r a{
+    padding: 0 10px;
+}
+.nav-1 p{
+    color: white;
+    padding: 0 10px;
+}
+.nav-2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.nav-2 img{
+    margin-left: 100px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.items i{
+    display: none;
+}
+.item{
+    padding: 0 60px;
+}
+.item:hover{
+    background-color: gray;
+}
+.item a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+.icons{
+    margin-right: 125px;
+}
+.icons i{
+    padding: 10px;
+}
+.hero{
+    background-color: rgb(242, 240, 240);
+    height: 500px;
+}
+.div-t{
+    align-items: center;
+    justify-content: space-around; 
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.div-t div img{
+    background: transparent;
+}
+.hero-text{
+    width: 35%;
+    margin-right: 100px;
+}
+.hero-text h1 ,.hero-text p {
+    padding: 10px 0;
+}
+.hero-text h1{
+    color: black;
+    font-size: 45px;
+    opacity: 0.7;
+}
+.hero-text h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    opacity: 0.8;
+}
+.hero-text p{
+    font-family: sans-serif;
+    opacity: 0.6;
+}
+.lines{
+    background-color: rgb(121, 169, 121);
+    width: 30px;
+    height: 3px;
+    margin: auto;
+    position: relative;
+}
+.lines::before{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: rgb(122, 227, 179);
+    position: absolute;
+    left: -35px;
+}
+.lines::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: rgb(80, 215, 154);
+    position: absolute;
+    right: -35px;
+}
+.category{
+    height: 600px;
+    flex-wrap: wrap;
+}
+.phrase{
+    width: 30%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.phrase h1{
+    color: black;
+    font-size: 40px;
+}
+.phrase p{
+    line-height: 20px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    opacity: 0.8;
+}
+.shop{
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.shop img{
+    border-radius: 200px;
+}
+.shop div h3{
+    margin: 20px 0 0 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.shop div button{
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(100, 152, 100);
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transform: translate(100px,30px);
+}
+.shop div button:hover{
+    background-color: black;
+}
+.feature{
+    height: 700px;
+    background-color: rgb(186, 186, 187);
+}
+.text{
+    width: 30%;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+.text h1{
+    color: black;
+    font-size: 40px;
+}
+.text p{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.cards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 0 10px;
+    width: 300px;
+}
+.card div{
+    background-color: white;
+    margin-top: -4px;
+    padding: 10px 10px;
+    height: 200px;
+}
+.card div h1{
+    margin-top: 20px;
+    color: black;
+    font-size: 25px;
+}
+.dolar{
+    display: inline;
+    color: rgb(193, 193, 193);
+    padding-left: 100px;
+}
+.color{
+    color: rgb(193, 193, 193);
+    margin-top: 20px;
+}
+.finish-1{
+    height: 600px;
+    background-color: rgb(38, 38, 55); 
+}
+.zpf{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.zay .products .further{
+    width: 300px;
+    height: 400px;
+}
+.zay ul i{
+    padding: 0 10px;
+}
+.zay h1{
+    color: green;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+.zay hr{
+    opacity: 0.1;
+    width: 300px;
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+    margin-top: 20px;
+}
+li{
+    color: white;
+    line-height: 35px;
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+.products hr{
+    opacity: 0.1;
+    width: 300px;
+    margin-top: 20px;
+}
+.products ul :nth-child(6){
+    color: green ;
+}
+.further hr{
+    opacity: 0.1;
+    width: 300px;
+    margin-top: 20px;
+}
+.first{
+   width: 80%;
+   margin: auto;
+   margin-top: 25px;
+   position: relative;
+   flex-wrap: wrap;
+}
+.first hr{
+    opacity: 0.1;
+}
+.media{
+    display: flex;
+    margin-top: 50px;
+}
+.media i{
+    padding: 0 20px;
+}
+.last{
+   position: absolute;
+   left: 900px;
+   display: flex;
+   border: 1px solid gray;
+   border-radius: 5px;
+   opacity: 0.5;
+}
+.last input{
+    background: transparent;
+    color: white;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: large;
+}
+.last button{
+    background-color: rgb(138, 187, 138);
+    color: white;
+    padding: 0 10px;
+    font-size: large;
+}
+.hero-text, .div-t div img{
+    flex-wrap: wrap;
+}
+.finish-2{
+    height: 100px;
+    background-color: rgb(17, 17, 46); 
+}
+.finish-2 p{
+    padding: 20px 0 0 150px;
+    color: white;
+}
+@media (max-width:360px) {
+.nav-1{
+    display: none;
+}
+.items,.icons{
+display: none;
+}
+.nav-2 div img{
+    margin-left: 20px;
+}
+.hero{
+    width: 100%;
+    height: 850px;
+}
+.div-t div img{
+    width:330px;
+    height:350px;
+}
+.hero-text{
+    width: 90%;
+    padding-left: 100px;
+}
+.div-t b i{
+    transform: translate(150px,400px);
+    rotate: 180deg;
+}
+.div-t span i{
+    transform: translate(150px,370px);
+}
+.category {
+    height: 1500px;
+}
+.phrase{
+    width: 80%;
+}
+.phrase h1{ 
+    font-size: 25px;
+}
+.phrase p{
+    font-size: 10px;
+    width: 90%;
+}
+.shop div{
+    padding: 30px 0 ;
+}
+.feature{
+    height: 1600px;
+}
+.feature .text {
+width: 100%;
+}
+.footer{
+    height: 1000px;
+}
+.further hr{
+    width: 300px;
+    margin-top: 20px;
+}
+.zpf div{
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.last{
+    transform: translate(-930px,50px);
+}
+.finish-1{
+    height: 1200px;
+}
+.finish-2{
+    height: 100px; 
+    padding-top: 50px;
+}
+.finish-2 p{
+    padding: 5px ;
+}
+}
+
+
+
+
+
