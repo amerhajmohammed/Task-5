@@ -278,8 +278,9 @@ h1{
 .items,.icons{
     display: none;
     }
-.items i{
+.items :last-child{
     display:block;
+    margin-left: 20px;
 }
 .nav-2 div img{
     margin-left: 20px;
